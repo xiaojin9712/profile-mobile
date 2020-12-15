@@ -1,0 +1,27 @@
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+  // border-top: 1px solid #FFAC30;
+  .tabbar-item {
+    flex: 1;
+    height: 100%;
+    line-height: 8vh;
+    font-size: 14px;
+    color: #212330;
+  }
+  .active {
+    color: #fff;
+    background: #FFAC30;
+    border-top: 4px solid #ff366a;
+  }
+}
