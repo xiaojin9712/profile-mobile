@@ -36,7 +36,8 @@ const routes = [
   },
   {
     path: '/',
-    redirect: '/home'
+    exact: true,
+    component: Home
   }
 ];
 
