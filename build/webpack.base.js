@@ -54,7 +54,7 @@ module.exports = {
   plugins: [
     new FriendlyErrorsWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'React Board',
+      title: 'Xavier | XXXavier',
       template: 'public/index.html',
       filename: 'index.html',
       files: {

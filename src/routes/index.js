@@ -33,6 +33,10 @@ const routes = [
   {
     path: "/test",
     component: Parent
+  },
+  {
+    path: '/',
+    redirect: '/home'
   }
 ];
 

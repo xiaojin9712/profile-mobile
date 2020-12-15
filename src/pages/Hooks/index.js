@@ -59,7 +59,8 @@ function User() {
 
   return (
     <UserContext.Provider value={theme}>
-      <input value={user} onChange={onChangeUser}/>
+      <h3>看什么看，王八蛋</h3>
+      {/* <input value={user} onChange={onChangeUser}/>
       <div>{data.users}</div>
       <Button type="primary" onClick={e => setUser(user + 1)}>改变 State</Button>
       <Child/>
@@ -67,7 +68,7 @@ function User() {
       <div>useReducer</div>
       <div>计数器{count}</div>
       <Button type="primary" onClick={e => disaptch("decrement")}>减</Button>
-      <Button type="primary" onClick={e => disaptch("increment")}>加</Button>
+      <Button type="primary" onClick={e => disaptch("increment")}>加</Button> */}
     </UserContext.Provider>
   )
 }
